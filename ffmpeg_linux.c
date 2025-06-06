@@ -56,10 +56,6 @@ FFMPEG *InitFFMPEG(size_t width, size_t height, size_t fps) {
         "-i", "-",
 
         "-c:v", "libx264",
-        "-preset", "veryslow",
-        "-crf", "0",
-        "-qp", "0",
-        "-pix_fmt", "yuv444p",
         "output.mp4",
 
         NULL);

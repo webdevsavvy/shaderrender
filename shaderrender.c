@@ -259,7 +259,7 @@ void RunVideoRenderer(const char *windowTitle)
     // int ffmpeg = ffmpeg_start_rendering(screenWidth, screenHeight, fps);
     FFMPEG *ffmpeg = InitFFMPEG(screenWidth, screenHeight, fps);
 
-    SetTraceLogLevel(LOG_INFO);
+    SetTraceLogLevel(LOG_NONE);
 
     SetConfigFlags(FLAG_WINDOW_UNDECORATED);
 
