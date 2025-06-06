@@ -4,7 +4,14 @@ Shaderrender is a tool for rendering vertex and fragment shaders into a window o
 
 ### Usage
 
+To render to a window use:
+
 ```shell
-make
 ./shaderrender -m window -f examples/circles.frag
+```
+
+To render to a video use:
+
+```shell
+./shaderrender -m video -f examples/circles.frag -d 20
 ```
