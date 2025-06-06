@@ -3,3 +3,6 @@
 
 # Binaries
 shaderrender
+
+# Rendering output
+output.mp4

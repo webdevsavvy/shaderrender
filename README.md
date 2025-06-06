@@ -16,4 +16,6 @@ To render to a video use:
 ./shaderrender -m video -f examples/circles.frag -d 20
 ```
 
-![output from video render](./output.mp4)
+Result:
+
+![output from video render](./output.gif)
